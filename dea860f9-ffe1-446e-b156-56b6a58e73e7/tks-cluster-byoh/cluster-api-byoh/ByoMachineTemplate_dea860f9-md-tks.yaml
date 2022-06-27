@@ -1,0 +1,12 @@
+# Source: cluster-api-byoh/templates/machinedeployment.yaml
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: ByoMachineTemplate
+metadata:
+  name: dea860f9-md-tks
+  namespace: dea860f9
+spec:
+  template:
+    spec:
+      selector:
+        matchLabels:
+          role: tks

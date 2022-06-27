@@ -1,0 +1,9 @@
+# Source: cluster-api-byoh/templates/machinedeployment.yaml
+apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
+kind: KubeadmConfigTemplate
+metadata:
+  name: dea860f9-md-normal
+  namespace: dea860f9
+spec:
+  template:
+    spec: {}
